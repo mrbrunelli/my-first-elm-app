@@ -57,10 +57,8 @@ update msg model =
 
 view : Int -> Html Msg
 view model =
-    div
-        styledContainer
-        [ div
-            styledCard
+    div styledContainer
+        [ div styledCard
             [ div [ style "display" "flex", style "align-items" "center" ]
                 [ img [ src "./static/logo.png", width 60 ] []
                 , span [ style "margin-left" "5px" ]
