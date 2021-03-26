@@ -34,3 +34,6 @@ elm make src/Main.elm --output dist/elm.js --optimize
 # Generate HTML only
 elm make src/Main.elm --output dist/index.html --optimize
 ```
+
+### Best Functional Syntax
+![](static/screenshot.png)
