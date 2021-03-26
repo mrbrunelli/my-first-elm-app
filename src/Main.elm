@@ -62,7 +62,7 @@ view model =
         [ div
             styledCard
             [ div [ style "display" "flex", style "align-items" "center" ]
-                [ img [ src "../static/logo.png", width 60 ] []
+                [ img [ src "./static/logo.png", width 60 ] []
                 , span [ style "margin-left" "5px" ]
                     [ p [ style "font-family" "Arial, sans" ] [ text "Elm Lang" ]
                     ]
