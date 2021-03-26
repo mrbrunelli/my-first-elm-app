@@ -83,7 +83,7 @@ view model =
         ]
 
 
-styledContainer : List (Attribute Msg)
+styledContainer : List (Attribute msg)
 styledContainer =
     [ style "background-color" "#fafafa"
     , style "height" "100vh"
@@ -94,7 +94,7 @@ styledContainer =
     ]
 
 
-styledCard : List (Attribute Msg)
+styledCard : List (Attribute msg)
 styledCard =
     [ style "background-color" "#fff"
     , style "padding" "6rem"
@@ -107,7 +107,7 @@ styledCard =
     ]
 
 
-styledTitle : List (Attribute Msg)
+styledTitle : List (Attribute msg)
 styledTitle =
     [ style "font-family" "Arial, sans"
     , style "font-size" "2.5rem"
@@ -123,7 +123,7 @@ styledP =
     ]
 
 
-styledBtn : List (Attribute Msg)
+styledBtn : List (Attribute msg)
 styledBtn =
     [ style "padding" "5px"
     , style "border-radius" "4px"
